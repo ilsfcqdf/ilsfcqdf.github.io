@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url('../img/P01arW3BZ9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+*{margin:0px;padding:0px;}
+img{border:0px;}
+body{background:#fffff url(../img/button_background.gif) top left repeat-x;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+#content{width:900px;margin:0 auto}
+.header{background:url('../img/5NDOFxvWmN.jpg') bottom left no-repeat;height:214px;}
+.floatl{float:left}
+.floatr{float:right}
+.logo{padding-top:20px;padding-left:10px;}
+.clear{clear:both;}
+.top-links ul{list-style:none;padding-top:22px;}
+.top-links li{float:left;color:#272727;background:url(images/li-seperator.gif) top right no-repeat;font-weight:bold;line-height:20px;padding:0 20px;}
+.top-links li a{text-decoration:none;color:#272727;font-weight:bold;}
+.top-links li a:hover{color:#517208}
+.top-links li a:active{color:#517208}
+.info{font-size:20px;width:400px;padding-top:140px;padding-right:69px;color:black;font-weight:bold;}
+.content-box{padding:30px 0px;}
+.left-col{width:490px;}
+.main-content{color:#9B9875;line-height:18px;}
+h1, h2, h3, h4{line-height:normal;}
+.main-content h1{
+color:#007b3b;padding-bottom:15px;font-size:20px;}
+.main-content span.second_heading{
+color:#0a356d;font-weight:bold;display:block;padding-bottom:15px;font-size:13px;}
+.main-content p{padding-bottom:20px;color:#9b9875;line-height:18px;}
+a{color:#9B9875;text-decoration:none;}
+a:hover a:active{text-decoration:none;}
+.gallery-section{
+width:255px;background:url(images/dotted-bg.gif) top right repeat-y;padding-right:30px;margin-top:30px;}
+.gallery-section h1{color:#007b3b;padding-bottom:10px;font-size:20px;}
+.gallery-section span.second_heading{
+color:#0a356d;font-weight:bold;display:block;padding-bottom:20px;font-size:13px;}
+.gallery-section img{padding-right:10px;padding-bottom:10px;}
+.drawing-section{width:175px;margin-top:30px;}
+.drawing-section h1{color:#007b3b;padding-bottom:10px;font-size:20px;}
+.drawing-section span.second_heading{
+color:#0a356d;font-weight:bold;display:block;padding-bottom:20px;font-size:13px;}
+.drawing-section p{padding-bottom:20px;color:#9b9875;line-height:18px;}
+a{color:#9B9875;text-decoration:none;}
+.news-title{color:#0a356d;font-weight:bold;display:block;padding-bottom:5px;font-size:13px;}
+.news-title a{text-decoration:none;color:#0a356d;}
+
+.right-col{width:331px;}
+.events-section{padding:10px 10px 0px 10px;border:5px solid #fcd598;background:#f9eddd url(../img/events-section-bg.gif) bottom right no-repeat;}
+.events-section h1{color:#007b3b;padding-bottom:10px;font-size:20px;}
+.events-section div{
+color:#0a356d;font-weight:bold;padding-bottom:10px;}
+.events-section p{color:#c75300;line-height:20px;font-size:11px;padding-top:2px;padding-bottom:20px;}
+.events-section p a{text-decoration:none;color:#c75300;}
+.right-title{color:#0a356d;font-weight:bold;font-size:13px;}
+.right-title a{text-decoration:none;color:#0a356d;}
+.kcb{padding:3px 5px;background:url(../img/best-section.gif) top left no-repeat;height:111px;margin-top:20px;}
+.table{width:100%;border:0px;background-color:#ffffff;}
+.table th{background:#F9EDDD;line-height:20px;color:#0a356d;}
+.table td{text-align:center;line-height:17px;}
+.rightborder{border-right:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9}
+.footer{background:url(../img/footer-bg.gif) top left repeat-x;}
+.footer-links{font-size:12px;text-align:center;
+width:900px;color:#fedbc2;margin:auto;padding-bottom:22px;}
+.footer-links ul{list-style:none;padding:22px 0px 0px 278px;}
+.footer-links li{float:left;margin-bottom:5px;margin-right:9px;color:#fedbc2;margin-bottom:15px;
+font-size:13px;}
+.footer-links li a{text-decoration:none;color:#fedbc2;}
+/*class_blog*/
+.class_blog h1{color:#007b3b;padding-bottom:10px;font-size:20px;}
+.class_blog div.second_heading{
+color:#0a356d;font-weight:bold;padding-bottom:10px;}
+.class_blog p{padding-bottom:20px;color:#9b9875;line-height:18px;}
+.one-photo{height:90px;}
+.one-photo img{padding-right:25px;padding-bottom:5px;}
+.photo-text{text-align:left;padding-left:25px;padding-bottom:10px;}

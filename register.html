@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>注册登录</title>
+    <link rel="stylesheet" href="../res/static/css/register.css">
+</head>
+<style>
+        #background-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+<!--背景视频-->
+<video id="background-video" autoplay loop muted>
+    <source src="../res/static/mp4/c7437ae8bc845fbbe00acea6516670b2d3b7defb.mp4" type="video/mp4">
+</video>
+
+ <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      const audio = new Audio('../res/static/mp3/4bc41a6745b769345973ce72801d73101e314c50.mp3');
+      audio.muted = true; // 初始设置为静音
+
+      // 用户点击页面时解除静音
+      window.addEventListener('click', () => {
+        audio.muted = false;
+        audio.play();
+      });
+    });
+  </script>
+
+<!--左右两边云-->
+<div class="wel" id="box">
+    <div class="box-1 lefp"></div>
+    <div class="box-1">
+        <div class="righp"></div>
+    </div>
+</div>
+<!--荧光点点-->
+<div class="wel" id="git"></div>
+<!--登录注册表-->
+<div class="wel" id="from">
+    <div class="box-2 le-1">
+        <form id="loginForm" action="" method="post">
+            <div class="flrg">
+                <h3>登录</h3>
+                <div class="a">
+                    <input type="text" class="in-1" placeholder="请输入账号">
+                </div>
+                <div class="a">
+                    <input type="password" class="in-1" placeholder="请输入密码">
+                </div>
+                <div class="a">
+                    <button type="button" onclick="login()">登录</button>
+                </div>
+                <div class="a">
+                    <div class="hr"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="box-2 le-2">
+        <form id="registerForm" action="" method="post">
+            <div class="flrg-1">
+                <h3>注册</h3>
+                <div class="a">
+                    <input type="text" class="in-1" placeholder="您的用户名">
+                </div>
+                <div class="a">
+                    <input type="password" class="in-1" placeholder="输入密码">
+                </div>
+                <div class="a">
+                    <input type="password" class="in-1" placeholder="再次确认密码">
+                </div>
+                <div class="a">
+                    <input type="text" class="in-1" placeholder="输入手机号码">
+                </div>
+                <div class="a">
+                    <input type="email" class="in-1" placeholder="输入邮箱地址">
+                </div>
+                <div class="a">
+                    <button type="button" onclick="register()">注册</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+function register() {
+  alert("注册成功!请在左边登录！");
+}
+function login() {
+  alert("登录成功!");
+  history.go(-1);
+}
+</script>
+
+<div style="text-align:center;">
+    <p id="statusMessage"></p>
+</div>
+
+</body>
+</html>
